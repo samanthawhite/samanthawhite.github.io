@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Hey, I'm Sam
+subtitle: An Engineer Who Builds Software For EVs
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I'm a senior controls engineer for a company that converts gasoline powered vehicles to electric vehicles. My software has been driven over 4.5 million miles.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My main responsibilities include building software and diagnosing issues for: 
+- DC Charging
+- AC Charging
+- Vehicle Diagnostics
 
-What else do you need?
+I aim to create vehicle software that is simple, easy to read, and safe to operate. 
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+When I'm not at work, I can be found hanging out with my dog, Teddy. 
