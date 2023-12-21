@@ -4,7 +4,7 @@ title: Hey, I'm Sam
 subtitle: An Engineer Who Builds Software For EVs
 ---
 
-Currently, I'm a senior controls engineer developing software for electric vehicle conversions. My software has been driven over 4.8 million miles on vehicles across North America. 
+Currently, I'm a senior controls engineer developing software for electric vehicle conversions. My software has been driven over 4.8 million miles on vehicles across North America.  
 
 I specialize in: 
 - DC Charging
