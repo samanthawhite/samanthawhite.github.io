@@ -8,12 +8,6 @@ author: Sam White
 
 # DC Charging Session Steps
 
-#todo add info about PLC communication
-#todo define evse, evcc, secc, etc
-#todo define contactors
-#todo explain J1772 cp stuff
-#todo make pretty -- add more info from spec
-
 
 ## Charge Plug Connected
 When the charge plug is connected, the EVSE will provide a 5% duty cycle to the EVCC. This duty cycle is reserved for this type of charge session. 
@@ -44,7 +38,6 @@ The user may have to scan their RFID card at this stage.
 
 ## Charge Parameter Discovery (CPD)
 In this stage, the EVSE and the EVCC will exchange charge parameters, limits, and a charge schedule, if applicable.
-#todo explain parameters, limits, etc
 
 ## Cable Check
 The EVSE applies a voltage to the charge cable to check the isolation. This is important for safely completing a DC charging session. 
@@ -90,6 +83,5 @@ This is used to check and communicate if the EVSE contactors have welded closed.
 
 ## Session Stop
 TCP communication will end here.
-#todo explain tcp
 
 
