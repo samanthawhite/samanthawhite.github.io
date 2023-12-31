@@ -12,14 +12,21 @@
     
     
       <item>
+        <title>DC Charging Overview</title>
+        <description>
+          The Communication Behind The DC Charging Process - 
+          DC Charging Session Steps #todo add info about PLC communication #todo define evse, evcc, secc, etc #todo define contactors #todo explain J1772 cp stuff Charge Plug Connected When the charge plug is connected, the EVSE will provide a 5% duty cycle to the EVCC. This duty cycle is reserved for...
+        </description>
+        <pubDate>Thu, 21 Dec 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2023-12-21-dcChargingOverview/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-12-21-dcChargingOverview/</guid>
+      </item>
+    
+      <item>
         <title>Git Cheatsheet</title>
         <description>
           A Place For My Common Git Commands - 
-          These are the commands that I commonly use in git. Some are used every day. Some are not used every day.
-
-git status
-
-
+          These are the commands that I commonly use in git. Some are used every day. Some are not used every day. To view the state of the working directory: git status To add specific files into the staging area: git add &amp;lt;filename&amp;gt; You can add multiple files at once using...
         </description>
         <pubDate>Sun, 17 Dec 2023 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2023-12-17-gitCheatsheet/</link>

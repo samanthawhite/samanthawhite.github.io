@@ -175,6 +175,14 @@
     var searchjson = '[ \
        \
         { \
+          "title"    : "DC Charging Overview", \
+          "desc"     : "DC Charging Overview", \
+          "category" : "dc chargingcharging", \
+          "url"      : "/2023-12-21-dcChargingOverview/", \
+          "date"     : "December 21, 2023" \
+        }, \
+       \
+        { \
           "title"    : "Git Cheatsheet", \
           "desc"     : "Git Cheatsheet", \
           "category" : "gitcheatsheet", \
@@ -272,7 +280,34 @@
       <div class="blog-post">
         <p>These are the commands that I commonly use in git. Some are used every day. Some are not used every day.</p>
 
+<p>To view the state of the working directory:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git status
+</code></pre></div></div>
+
+<p>To add specific files into the staging area:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add &lt;filename&gt;
+</code></pre></div></div>
+<p>You can add multiple files at once using this method:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add &lt;filename1&gt; &lt;filename2&gt; &lt;filename3&gt;
+</code></pre></div></div>
+<p>To add all changes:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add --all
+</code></pre></div></div>
+<p>This is the shorted version of the “–all”:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add -A
+</code></pre></div></div>
+<p>To specify the current directory:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+</code></pre></div></div>
+<p>To use git’s interactive adding mode:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add -i
+</code></pre></div></div>
+
+<p>To remove a file that you’ve staged:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git rm --cached &lt;filename&gt;
+</code></pre></div></div>
+<p>To remove all staged files:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset HEAD -- &lt;directory-name&gt;
 </code></pre></div></div>
 
       </div>
@@ -301,6 +336,13 @@
 
       <ul class="pagination blog-pager">
         
+        
+        <li class="page-item next">
+          <a class="page-link" href="/2023-12-21-dcChargingOverview/" data-toggle="tooltip" data-placement="top" title="DC Charging Overview">
+            <span class="d-none d-sm-inline-block">Next Post</span>
+            <i class="fas fa-arrow-right" alt="Next Post"></i>
+          </a>
+        </li>
         
       </ul>
       
